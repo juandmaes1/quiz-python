@@ -1,0 +1,21 @@
+rios = {"Nilo":"gipto", "Amazonas":"Colombia","osaka":"Japon","duero":"Portugal","Misuri":"Estados Unidos"}
+for clave, valor in rios.items():
+    print("El rios %s es de %s" % (clave, valor))
+
+for k in rios:
+        print("el rio "+ k)
+
+
+for v in rios.values():
+        print(" el pais:")
+        print(v)
+
+glosario = {"ciclos": "secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse.",
+            "condicionales": "grupos de sentencias o sentencias individuales que te permiten condicionar la decisión entre la elección de una opción y otra",
+            "iterativo": " repetición de un segmento de código dentro de un programa de computadora.",
+            "Algoritmo" : "es básicamente un conjunto de pasos para una determinada tarea",
+            "Código Binario": "código formado solo por 0 y 1 que tiene como función codificar algo. Es la base de toda la lógica de la computadora. Todo se convierte, al final, en código binario."}
+for x, y in glosario.items():
+    print(x,":", y)
+
+
